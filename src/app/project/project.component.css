@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500;600&family=Bellefair&display=swap');
+a{
+	text-decoration:none;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight:400;
+}
+.title{
+	clear:left;
+	width:40%;
+	background:rgba(255,255,255,0.3);
+	text-align:center;
+}
+.title>h1{
+	font-size:40px;
+	color:white;
+	font-family: 'Barlow Condensed', sans-serif;
+	width:30%;
+	margin:0px auto;
+	padding:10px 0px;
+}
+.title>h1:hover{border-bottom:2px solid white;}
+.sec1{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	clear:left;
+}
+.sec1-div{
+	width:30%;
+	margin:2% 1%;
+}
+.sec1-div>img{
+	width:100%;
+	height:200px;
+}
+.sec1-div-div{
+	width:100%;
+	background:#FFFFFF;
+	height:300px;
+	display:flex;
+}
+.sec1-div-div1{
+	width:80%;
+	margin:auto;
+}
+.sec1-div-div1>h1{
+	font-size:30px;
+	font-family: 'Barlow Condensed', sans-serif;
+	padding:5px 0px;
+}
+.sec1-div-div1>p{
+	font-size:20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	padding:10px 0px;
+}
+.sec1-div-div1>a{
+	display:inline-block;
+	padding:10px 45px;
+	background:black;
+	color:white;
+}
+.sec1-div-div1>a:hover{background:#12ADC1;
+	color:#FFFFFF;}
+img{opacity:1;}
+img:hover{opacity:0.9;transition:0.5s;}
+@media (max-width:991px) and (min-width:336px){
+	.sec1-div{
+	width:80%;
+	margin:20px auto;
+	}
+	.title{
+		width:100%;
+	}
+}
